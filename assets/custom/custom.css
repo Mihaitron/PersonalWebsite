@@ -1,0 +1,11 @@
+.zoom-container .item-img {
+    overflow: hidden;
+}
+
+.zoom-container img {
+    transition: transform .25s ease;
+}
+
+.zoom-container:hover img {
+    transform: scale(1.10);
+}
